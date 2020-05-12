@@ -18,3 +18,8 @@ ORP transcriptome assembly
 >1. $HOME/Oyster_River_Protocol/oyster.mk STRAND=RF SPADES2_KMER=25 MEM=120 CPU=9 READ1=adzuki_R1.fq READ2=adzuki_R2.fq RUNOUT=adzuki_bean_ORP
 >2. $HOME/Oyster_River_Protocol/oyster.mk STRAND=RF SPADES2_KMER=25 MEM=120 CPU=9 READ1=mung_R1.fq READ2=mung_R2.fq RUNOUT=mung_bean_ORP
 
+ORP OUTPUT
+**MUNG BEAN** 
+![Summary](orp_output_graph.jpg)
+![Mung Bean Summary](mungbean_summary.jpg)
+![Adzuki Bean Summary](adzukibean_summary.jpg)
