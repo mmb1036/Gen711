@@ -10,7 +10,7 @@ Subsampled down reads using SeqTk
 >2. seqtk sample -s100 SRR1642852_2.fastq 10000000 > new_mung_R2.fq
 >3. seqtk sample -s100 SRR1980930_1.fastq 10000000 > new_adzuki_R1.fq
 >4. seqtk sample -s100 SRR1980930_2.fastq 10000000 > new_adzuki_R2.fq
-- several attempts were made using files of various sizes and subsampled to down to smaller sizes, but they were either too big or too small. 
+- several attempts were made using files of various sizes and subsampled down to smaller sizes, but they were either too big or too small. 
 - The mung bean files started with 19,163,991 reads
 - the adzuki bean files started with 37,313,522 reads 
 
@@ -19,7 +19,6 @@ ORP transcriptome assembly
 >2. $HOME/Oyster_River_Protocol/oyster.mk STRAND=RF SPADES2_KMER=25 MEM=120 CPU=9 READ1=mung_R1.fq READ2=mung_R2.fq RUNOUT=mung_bean_ORP
 
 ORP OUTPUT
-**MUNG BEAN** 
 ![Summary](orp_output_graph.jpg)
 ![Mung Bean Summary](mungbean_summary.jpg)
 ![Adzuki Bean Summary](adzukibean_summary.jpg)
